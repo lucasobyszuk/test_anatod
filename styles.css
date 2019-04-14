@@ -48,3 +48,45 @@ footer {
 	color: #acacac;
 	font-weight: bold;
 }
+.form-cliente, .list-clientes {
+	display: none;
+}
+.form-cliente {
+	background-color: white;
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #2196f3	;
+}
+.form-cliente form {
+	width: 50%;
+  margin: auto;
+}
+.form-cliente input, .form-cliente select, .form-cliente button {
+	width: 100%;
+	padding: 5px 0px;
+	margin-bottom: 10px;
+	border-width: 0px;
+	border-bottom: 1px solid #acacac;
+} 
+::placeholder {
+	color: #acacac;
+}
+.form-cliente select option {
+	color: black;
+}
+.form-cliente select option:first-child{
+  color: #acacac;
+}
+.form-cliente select:invalid {
+	color: #acacac;
+}
+.form-cliente .confirmClientButton {
+	border-width: 0px;
+	background-color: #2196f3;
+	color: #fff;
+	padding: 10px 0;
+}
+.confirmClientButton:hover {
+	background-color: #00ccf7;
+}
