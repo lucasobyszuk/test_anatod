@@ -48,9 +48,6 @@ footer {
 	color: #acacac;
 	font-weight: bold;
 }
-.form-cliente, .list-clientes {
-	display: none;
-}
 .form-cliente {
 	background-color: white;
   width: 90%;
